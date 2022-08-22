@@ -1,0 +1,22 @@
+<div class="container pt3">
+  <h1>Stupid Coaching</h1>
+  <figure>
+    <blockquote class="blockquote">
+      <p><%= @question %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">You</cite>
+    </figcaption>
+  </figure>
+  <figure class="yellow">
+    <blockquote class="blockquote">
+      <p><%= @answer %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">Your coach</cite>
+    </figcaption>
+  </figure>
+</div>
+<div class="container">
+  <%= link_to "back to question", ask_path, class: "link-primary style='text-decoration: none'" %>
+</div>
